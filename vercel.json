@@ -1,7 +1,4 @@
 {
-  "functions": {
-    "api/og.tsx": {
-      "runtime": "edge"
-    }
-  }
+  "buildCommand": "",
+  "outputDirectory": ""
 }
