@@ -83,7 +83,7 @@ async function generateOgImage(params) {
                       type: 'div',
                       props: {
                         style: {
-                          fontSize: 18,
+                          fontSize: 24,
                           fontFamily: 'Archivo Black',
                           fontWeight: 700,
                           color: '#FFF',
@@ -91,7 +91,7 @@ async function generateOgImage(params) {
                           letterSpacing: '4px',
                           marginBottom: '20px',
                           background: '#FF0000',
-                          padding: '10px 24px',
+                          padding: '12px 28px',
                           alignSelf: 'flex-start',
                         },
                         children: 'Blog Post',
@@ -123,7 +123,7 @@ async function generateOgImage(params) {
                       type: 'div',
                       props: {
                         style: {
-                          fontSize: 26,
+                          fontSize: 32,
                           color: '#F2F0EB',
                           opacity: 0.7,
                           lineHeight: 1.4,
@@ -156,7 +156,7 @@ async function generateOgImage(params) {
                                   type: 'div',
                                   props: {
                                     style: {
-                                      fontSize: 20,
+                                      fontSize: 26,
                                       color: '#F2F0EB',
                                       opacity: 0.5,
                                       letterSpacing: '2px',
@@ -186,11 +186,11 @@ async function generateOgImage(params) {
                             type: 'div',
                             props: {
                               style: {
-                                fontSize: 18,
+                                fontSize: 24,
                                 fontFamily: 'Archivo Black',
                                 color: '#FF0000',
                                 border: '2px solid rgba(255, 0, 0, 0.4)',
-                                padding: '4px 12px',
+                                padding: '6px 16px',
                                 textTransform: 'uppercase',
                                 letterSpacing: '2px',
                               },
@@ -221,7 +221,7 @@ async function generateOgImage(params) {
                 type: 'div',
                 props: {
                   style: {
-                    fontSize: 22,
+                    fontSize: 28,
                     fontFamily: 'Archivo Black',
                     fontWeight: 900,
                     color: '#FFF',
