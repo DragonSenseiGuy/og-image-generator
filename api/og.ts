@@ -113,7 +113,7 @@ export default function handler(req: Request) {
                   type: 'div',
                   props: {
                     style: {
-                      fontSize: isPost ? 52 : 72,
+                      fontSize: isPost ? 64 : 84,
                       fontWeight: 900,
                       color: '#FFF',
                       textTransform: 'uppercase' as const,
