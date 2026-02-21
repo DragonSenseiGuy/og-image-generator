@@ -5,7 +5,7 @@ const { Resvg } = require('@resvg/resvg-js');
 
 let satori;
 
-const PORT = 3000;
+const PORT = 6000;
 
 // Load font at startup
 const archivoBlack = fs.readFileSync(path.join(__dirname, 'fonts', 'ArchivoBlack-Regular.ttf'));

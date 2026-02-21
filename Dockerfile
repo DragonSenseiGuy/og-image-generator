@@ -16,5 +16,5 @@ COPY --from=build /app/node_modules ./node_modules
 COPY --from=build /app/fonts ./fonts
 COPY package.json server.js ./
 
-EXPOSE 3000
+EXPOSE 6000
 CMD ["node", "server.js"]
