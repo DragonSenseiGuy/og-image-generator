@@ -93,14 +93,14 @@ export default function handler(req: Request) {
                         type: 'div',
                         props: {
                           style: {
-                            fontSize: 14,
+                            fontSize: 18,
                             fontWeight: 700,
                             color: '#FFF',
                             textTransform: 'uppercase' as const,
                             letterSpacing: '4px',
                             marginBottom: '20px',
                             background: '#FF0000',
-                            padding: '8px 20px',
+                            padding: '10px 24px',
                             alignSelf: 'flex-start',
                           },
                           children: 'Blog Post',
@@ -131,10 +131,10 @@ export default function handler(req: Request) {
                         type: 'div',
                         props: {
                           style: {
-                            fontSize: 20,
+                            fontSize: 26,
                             color: '#F2F0EB',
                             opacity: 0.7,
-                            lineHeight: 1.5,
+                            lineHeight: 1.4,
                             maxWidth: '700px',
                             borderLeft: '4px solid #FF0000',
                             paddingLeft: '16px',
@@ -164,7 +164,7 @@ export default function handler(req: Request) {
                                     type: 'div',
                                     props: {
                                       style: {
-                                        fontSize: 16,
+                                        fontSize: 20,
                                         color: '#F2F0EB',
                                         opacity: 0.5,
                                         letterSpacing: '2px',
@@ -194,7 +194,7 @@ export default function handler(req: Request) {
                               type: 'div',
                               props: {
                                 style: {
-                                  fontSize: 14,
+                                  fontSize: 18,
                                   color: '#FF0000',
                                   border: '2px solid rgba(255, 0, 0, 0.4)',
                                   padding: '4px 12px',
